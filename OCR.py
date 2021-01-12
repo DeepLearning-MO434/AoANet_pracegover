@@ -48,7 +48,3 @@ def OCR (imageIn, texto):
     final=texto.replace("UNK", retorno)
     return(final)
 
-
-
-teste=OCR("C:/Users/Pichau/Desktop/OCR/t4.jpg","ilustração de menina com um coração . Na imagem está escrito : “ UNK ”")
-print(teste)
