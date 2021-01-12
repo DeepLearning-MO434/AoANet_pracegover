@@ -46,5 +46,5 @@ def OCR (imageIn, texto):
         retorno=d
 
     final=texto.replace("UNK", retorno)
-    return(final)
+    return(final) #retorna texto com UNK alterado
 
